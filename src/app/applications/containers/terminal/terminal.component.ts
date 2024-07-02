@@ -20,8 +20,8 @@ export class TerminalComponent {
 
   private getCommandResponse(command: string) {
     switch (command.toUpperCase()) {
-      case TerminalCommand.whoAmandaIs: return 'Developer Thing';
-      case TerminalCommand.skills: return ' UX Design \n Figma avançado \n  ';
+      case TerminalCommand.whoAmandaIs: return 'Eu sou a Amanda :)';
+      case TerminalCommand.skills: return ' UX Design Figma avançado';
       case TerminalCommand.exp: return 'Angular';
       default: return 'Comando desconhecido, tente novamente :p';
     }
